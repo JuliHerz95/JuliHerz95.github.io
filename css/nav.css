@@ -1,0 +1,161 @@
+body {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #fffdf4;
+}
+
+ol {
+    list-style: none;
+}
+
+/*p,li {
+    font-family: montserrat;
+    font-weight: 400;
+    color: #848285;
+}*/
+p,
+li{
+    font-family: Montserrat Light;
+    color: #848285;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+p a{
+    color: #7dabab;
+    text-decoration: none;
+}
+
+p a:visited {
+    color: #7dabab;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+.nostyle li {
+    list-style: none;
+}
+
+
+/* -------------- Nav --------------*/
+nav {
+    
+    width: 80%;
+    margin: auto; 
+    margin-top: 100px; 
+}
+.dropdown {
+    text-align: left;
+    margin-bottom: 40px; 
+}
+.dropdown  label , a {
+    text-decoration: none;
+    color: #7dabab;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+}
+.dropdown-content a {
+
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 100;
+    padding-right: 15px;
+}
+
+.logos img {
+    padding-right: 10px;
+}
+
+button {
+    
+}
+
+/* -------------- Menu-Toggle --------------*/
+
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+
+#menu-toggle:checked + .dropdown-content {
+  display: block;
+}
+
+/* ---Menu-Toggle1 ---*/
+
+#menu-toggle1 {
+  display: none; /* hide the checkbox */
+}
+
+#menu-toggle1:checked + .dropdown-content {
+  display: block;
+}
+
+/* ---Menu-Toggle2 ---*/
+
+
+#menu-toggle2 {
+  display: none; /* hide the checkbox */
+}
+
+#menu-toggle2:checked + .dropdown-content {
+  display: block;
+}
+
+/* ---Menu-Toggle3 ---*/
+
+
+#menu-toggle3 {
+  display: none; /* hide the checkbox */
+}
+
+#menu-toggle3:checked + .dropdown-content {
+  display: block;
+}
+
+/* ---Menu-Toggle4 ---*/
+
+
+#menu-toggle4 {
+  display: none; /* hide the checkbox */
+}
+
+#menu-toggle4:checked + .dropdown-content {
+  display: block;
+}
+
+/* ---Menu-Toggle5 ---*/
+
+
+#menu-toggle5 {
+  display: none; /* hide the checkbox */
+}
+
+#menu-toggle5:checked + .dropdown-content {
+  display: block;
+}
+
+
+/* -------------- Kreuz --------------*/
+
+#button_back { 
+    position:absolute;
+    float: right;
+    display: block;
+    margin-top: -80px; 
+    margin-right: 20px; 
+    cursor: pointer;
+
+}
+

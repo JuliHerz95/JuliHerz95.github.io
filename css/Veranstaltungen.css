@@ -1,0 +1,653 @@
+body {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #fffdf4;
+}
+
+ol {
+    list-style: none;
+}
+
+/*p,li {
+    font-family: montserrat;
+    font-weight: 400;
+    color: #848285;
+}*/
+p,
+li{
+    font-family: Montserrat Light;
+    color: #848285;
+    font-size: 15px;
+    line-height: 19px;
+    hyphens: auto;
+}
+
+p a{
+    color: #7dabab;
+    text-decoration: none;
+}
+
+p a:visited {
+    color: #7dabab;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+.nostyle li {
+    list-style: none;
+}
+h1 {
+/*    color: rgba(74,156,177, 0.5);*/
+    color: #7dabab;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+        line-height: 120%;
+    mix-blend-mode: multiply;
+
+}
+h2 {
+    font-size: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color:#df2a21;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    margin-top: 4%;
+    line-height: 110%;
+}
+h3 {
+    color: #7dabab;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color:#df2a21;
+}
+
+/* -------------- HEADER --------------*/
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    width: 100%;
+    z-index: 100;
+}
+nav {
+    min-width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.dropdown a {
+    text-decoration: none;
+    color: #7dabab;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-left: 15px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-left: 15px;
+    z-index: 100;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #fffdf4;
+    padding-bottom: 15px;
+}
+.dropdown-content a {
+    padding-top: 9px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5em;
+    font-weight: 100;
+    padding-right: 15px;
+}
+.dropdown-content a:hover {
+    color:#df2a21;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    color:#df2a21;
+}
+.logos img {
+    padding-right: 10px;
+}
+/* ---------------Überschrift 1---------------------*/
+
+.uContainer01 {
+    display: flex;
+    width: 100%;
+    margin-top: 75px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+}
+.uP{
+    display: inline-block;
+    z-index: 2;
+    margin-top: 4%;
+    margin-right: -100px;
+    order: 1;
+}
+
+.h1Bild {
+    max-height: 100px;
+    width: auto;
+    order: 2;
+    z-index: 2; 
+}
+
+/* ---------------Textblock 1---------------------*/
+.texContainer01 {
+    position: relative;
+    margin-top: -40px;
+}
+.texContainer01:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.textblock {
+    margin-top: 35px;
+    margin-right: 28px;
+    width: 320px;
+    float: left;
+}
+.t2 {
+    margin-top: 148px;
+}
+
+/*------------ unter Überschrift LINKS----------------- */
+.uuContainerLinks {
+    display: flex;
+    position: relative;
+    max-height: 400px;
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.uuContainerLinks img {
+    order:10;
+    max-height:inherit;
+    width: auto;
+}
+.uuContainerLinks::before {
+    width: 41.7%;
+    height: 20px;
+    background-color: #7dabab;
+    margin-top:8%;
+    margin-right:19%;
+    content: "";
+    mix-blend-mode: multiply;
+    z-index: 100; 
+}
+.uuContainerLinks h2 {
+    order:1;
+    margin-left: 39.5%;
+}
+
+/*------------ unter Überschrift Rechts----------------- */
+.uuContainerRechts {
+ display: flex;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-flow: row-reverse;
+}
+.uuContainerRechts::before {
+    width: 41.7%;
+    height: 20px;
+    background-color: #7dabab;
+    margin-top:8%;
+    content: "";
+    display: block;
+    mix-blend-mode: multiply;
+    z-index: 100;
+    
+}
+.uuContainerRechts h2 {
+    padding-right:33%;
+    display: inline-block;
+}
+
+/*------------ Zitat----------------- */
+.zitat {
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color:#df2a21;
+    opacity: 1;
+    line-height: 120%;
+}
+
+/*----- Aufzählungen ----*/
+
+.numRahmen{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px
+}
+.num {
+    max-width: 320px;
+    margin-bottom: 250px; 
+}
+
+.num2 {
+    margin-bottom: 10px; 
+}
+.num_head{
+    margin-bottom: 40px;
+}
+.num_head b{
+    z-index: 2;
+     mix-blend-mode: multiply;
+}
+.num p{
+    display: block;
+    clear: both;
+}
+
+.num_img_links {
+    width: 100%; 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+
+.num_img_links img {
+    max-height: 500px; 
+    width: auto; 
+    margin-left: -130px
+}
+
+.num_img_rechts {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.num_img_rechts img {
+    max-height: 400px; 
+    width: auto; 
+}
+
+
+/* ----------- Alle ungeraden elemente ------*/
+.num:nth-of-type(odd){
+    float: left; 
+}
+
+.num:nth-of-type(odd) .num_head{
+    position: relative;
+    overflow: visible;
+    float: right;
+}
+.num:nth-of-type(odd) b {
+    display: inline-block;
+    position: absolute;
+    left: -60px;
+    top: -18px;
+    
+    color: #7dabab;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    opacity:1;
+    line-height: 120%;
+}
+
+.num:nth-of-type(odd) h3{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+    text-align: right;
+    color:#df2a21;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.num:nth-of-type(odd) p{
+    width: 320px;
+    margin-top:30px;
+}
+/* ----------- Alle Geraden Elemente ------- */
+.num:nth-of-type(2){
+    margin-top: 150px;
+}
+
+.num:nth-of-type(even){
+    float: right;
+}
+
+.num:nth-of-type(even) .num_head{
+    position: relative;
+    overflow: visible;
+    float: left;
+}
+.num:nth-of-type(even) b {
+    display: inline-block;
+    position: absolute;
+    right: -60px;
+    top: -18px;
+    
+    color: #7dabab;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.num:nth-of-type(even) h3{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+    color:#df2a21;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+.num:nth-of-type(even) p{
+    width: 320px;
+    margin-top:30px;
+}
+.num:nth-of-type(even) img{
+    height: 320px;
+    width: auto;
+}
+
+/* ----------- Alle Geraden Elemente Fördermittel------- */
+
+
+.zahl_rechts .num_head{
+    position: relative;
+    overflow: visible;
+    float: right;
+}
+.zahl_rechts b {
+    display: inline-block;
+    position: absolute;
+    right: -60px;
+    top: -18px;
+    
+    color: #7dabab;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.num:nth-of-type(even) h3{
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0px;
+
+    color:#df2a21;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+.num:nth-of-type(even) p{
+    width: 320px;
+    margin-top:30px;
+}
+.num:nth-of-type(even) img{
+    height: 320px;
+    width: auto;
+}
+/*------Zu Programme-----*/
+#zitatBildBlock_Kinder5 {
+    width: 50%;
+    margin-top: -100px;
+    float: left;
+}
+#TextboxZuBildKleine {
+    width: 225px;
+    margin-left: 30%;
+    margin-top: -30px;
+    mix-blend-mode: multiply;
+}
+#Kinder5{
+   width: 100%;
+}
+#zitatBildBlock_Kinder5:after {
+    clear: both;
+    content: "";
+    display: blocdk;
+}
+.Textblock {
+    float: left;
+    width: 300px;
+    margin-left:12%;
+}
+#platzhalter{
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-left: 100px;
+}
+#zitat_unserNetzwerk{
+    width: 170px;
+    float: left;
+    margin-top: 370px;
+}
+
+#doppelBild{
+    width: 90%;
+    height: auto;
+    clear: both;
+    margin-left: -38px;
+}
+#Logos{
+    margin: auto;
+    width: 50%;
+}
+#Logos img{
+   float: left;
+    margin: 2% 2% 2% 2%;
+    width: 46%;
+}
+#Logos:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+
+/*------Footer-----*/
+
+footer {
+    background-image: url(../images/Footer.jpg);
+    width: 100%;
+    margin-top: 160px;
+    clear: both;
+    
+}
+
+.buttons {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 25px; 
+   
+}
+
+.buttons img {
+    width: 45px;
+    height: 45px; 
+     margin-left: 10px; 
+    margin-right: 10px;
+    
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+
+}
+
+
+
+.footer-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 0; 
+}
+.footer-list li {
+    flex-basis: auto;
+    margin: .25em 0;
+    padding: 0 1em;
+    text-align: center;
+    border-left: 1px solid white;
+    color: white; 
+    list-style: none; 
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:200;
+    letter-spacing: 1px;
+   
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white; 
+    }
+
+
+#kontakt {
+    border-left: none;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.copyright p {
+    color: white;
+    font-weight: 100; 
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+/*------------------Mitmachen---------------------*/
+
+
+#Mitmachen {
+    max-width: 100%; 
+    z-index: 0; 
+}
+
+#footer_Mitmachen {
+    margin-top: -10px; 
+}
+
+#ZurKarteContainer {
+    max-width: 100%; 
+    background-color: aqua; 
+    
+}
+
+
+#ZurKarte {
+    position: absolute; top:2200px;left:1330px;
+    width: 110px;
+    height: 50px;
+    z-index: 1;
+    margin-bottom: 1000px; 
+    cursor: pointer; 
+}
+
+#ZumDokument {
+    position: absolute; top:3340px;left:1240px;
+    width: 160px;
+    height: 50px;
+    z-index: 1;
+    margin-bottom: 1000px; 
+    cursor: pointer; 
+}
+
+#ZuKontakten {
+    position: absolute; top:4170px;left:750px;
+    width: 160px;
+    height: 50px;
+    z-index: 1;
+    margin-bottom: 1000px; 
+    cursor: pointer; 
+}
+
+#DOSB_Website {
+    position: absolute; top:4300px;left:750px;
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+    margin-bottom: 1000px; 
+    cursor: pointer; 
+}
+
+#Netzwerkarbeit_Link {
+    position: absolute; top:4220px;left:1120px;
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+    margin-bottom: 1000px; 
+    cursor: pointer; 
+}
+
+#fEn {
+    position: absolute;top:600px;left:490px;
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+    margin-bottom: 1000px; 
+    cursor: pointer; 
+}
+
+#st {
+    position: absolute;top:1470px;left:490px;
+    width: 200px;
+    height: 50px;
+    z-index: 1;
+    margin-bottom: 1000px; 
+    cursor: pointer; 
+}
+
+
+/*-------- Foedermittel -----*/
+

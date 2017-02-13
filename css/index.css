@@ -1,0 +1,41 @@
+
+.link2{
+    font-family: Montserrat;
+    color:#df2a21;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing:-0.5px; 
+    text-decoration: none;
+    
+    border-bottom: 2px;
+    border-color:#df2a21;
+    border-bottom-style: solid;
+    
+    padding-bottom: 3px;
+    display: inline-block;
+}
+
+
+
+video#bgvid {
+    width: 100%;
+    height: auto;
+}
+
+#Cover_Handy {
+    display: none; 
+}
+
+#z1{
+    max-width:600px;
+    font-size: 35px;
+    color: #7dabab;
+    margin: auto;
+    margin-top: -10px;
+    z-index: 100;
+}
+#l1{
+    margin-left: 720px;
+    margin-top: 40px;
+}
+
